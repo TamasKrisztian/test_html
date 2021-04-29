@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 20px;
+  right: 20px;
+}
+
+.navbar-toggle {
+  border: none;
+  width: 65px;
+  height: 65px;
+  background-color: black;
+  border-radius: 50%;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.menu {
+  font-size: 40px;
+  color: white;
+}
+
+.menu-item {
+  background-color: lightblue;
+  text-align: center;
+}
